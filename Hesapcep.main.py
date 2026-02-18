@@ -149,7 +149,6 @@ def main(page: ft.Page):
         )
     )
 
-# --- KRİTİK NOKTA: TARAYICIDA AÇMA KOMUTU ---
 if __name__ == "__main__":
-    # Bu satır uygulamayı telefondaki Chrome'da açar
-    ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+    import flet as ft
+    ft.app(target=main)
